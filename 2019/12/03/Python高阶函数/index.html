@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="分享几个Python3函数式编程思想的代表性高阶函数，若有不足请指出，QQ:1151418758," />
 
 
 
@@ -79,14 +79,19 @@
 
 
 
-<meta name="description" content="岁月静好，未来可期。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="John xiaoxi">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+<meta name="description" content="什么是高阶函数？高阶函数：一个函数可以作为参数传给另外一个函数，或者一个函数的返回值为另外一个函数（若返回值为该函数本身，则为递归），满足其一则为高阶函数。  map()映射函数 如上图所示，map()函数其实是一个一一映射的关系 使用方法： map()函数接收两个参数，一个是函数，一个是序列，map将传入的函数依次作用到序列的每个元素，并把结果作为迭代器返回。  注：map()函数返回的是一个迭">
+<meta name="keywords" content="分享几个Python3函数式编程思想的代表性高阶函数，若有不足请指出，QQ:1151418758">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python高阶函数">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;Python%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0&#x2F;index.html">
 <meta property="og:site_name" content="John xiaoxi">
-<meta property="og:description" content="岁月静好，未来可期。">
+<meta property="og:description" content="什么是高阶函数？高阶函数：一个函数可以作为参数传给另外一个函数，或者一个函数的返回值为另外一个函数（若返回值为该函数本身，则为递归），满足其一则为高阶函数。  map()映射函数 如上图所示，map()函数其实是一个一一映射的关系 使用方法： map()函数接收两个参数，一个是函数，一个是序列，map将传入的函数依次作用到序列的每个元素，并把结果作为迭代器返回。  注：map()函数返回的是一个迭">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https:&#x2F;&#x2F;i.loli.net&#x2F;2019&#x2F;12&#x2F;03&#x2F;EXry4FLgBZTCS6p.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;i.loli.net&#x2F;2019&#x2F;12&#x2F;03&#x2F;9sGa3Bh4OPEKvkV.jpg">
+<meta property="og:updated_time" content="2019-12-03T06:42:05.000Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;i.loli.net&#x2F;2019&#x2F;12&#x2F;03&#x2F;EXry4FLgBZTCS6p.png">
 
 
 
@@ -116,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2019/12/03/Python高阶函数/"/>
 
 
 
 
 
-  <title>John xiaoxi</title>
+  <title>Python高阶函数 | John xiaoxi</title>
   
 
 
@@ -141,8 +146,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -255,9 +259,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -287,9 +291,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/12/03/Python%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0/" itemprop="url">Python高阶函数</a></h1>
+          <h1 class="post-title" itemprop="name headline">Python高阶函数</h1>
         
 
         <div class="post-meta">
@@ -339,9 +341,7 @@
       
 
       
-        
-          
-            <h1 id="什么是高阶函数？"><a href="#什么是高阶函数？" class="headerlink" title="什么是高阶函数？"></a>什么是高阶函数？</h1><p>高阶函数：一个函数可以作为参数传给另外一个函数，或者一个函数的返回值为另外一个函数（若返回值为该函数本身，则为递归），满足其一则为高阶函数。</p>
+        <h1 id="什么是高阶函数？"><a href="#什么是高阶函数？" class="headerlink" title="什么是高阶函数？"></a>什么是高阶函数？</h1><p>高阶函数：一个函数可以作为参数传给另外一个函数，或者一个函数的返回值为另外一个函数（若返回值为该函数本身，则为递归），满足其一则为高阶函数。</p>
 <hr>
 <h2 id="map-映射函数"><a href="#map-映射函数" class="headerlink" title="map()映射函数"></a>map()映射函数</h2><p><img src="https://i.loli.net/2019/12/03/EXry4FLgBZTCS6p.png" alt="0.png"></p>
 <p>如上图所示，map()函数其实是一个一一映射的关系</p>
@@ -413,8 +413,6 @@
 <p>最后，栗子真好吃！真香~~</p>
 <p><img src="https://i.loli.net/2019/12/03/9sGa3Bh4OPEKvkV.jpg" alt="u_3509273809,3857167840_fm_26_gp_0.jpg"></p>
 
-          
-        
       
     </div>
     
@@ -429,14 +427,20 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/%E5%88%86%E4%BA%AB%E5%87%A0%E4%B8%AAPython3%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3%E7%9A%84%E4%BB%A3%E8%A1%A8%E6%80%A7%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0%EF%BC%8C%E8%8B%A5%E6%9C%89%E4%B8%8D%E8%B6%B3%E8%AF%B7%E6%8C%87%E5%87%BA%EF%BC%8CQQ-1151418758/" rel="tag"># 分享几个Python3函数式编程思想的代表性高阶函数，若有不足请指出，QQ:1151418758</a>
+          
+        </div>
+      
+
+      
+      
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -446,10 +450,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -457,6 +462,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -477,8 +486,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -533,6 +551,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#什么是高阶函数？"><span class="nav-number">1.</span> <span class="nav-text">什么是高阶函数？</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#map-映射函数"><span class="nav-number">1.1.</span> <span class="nav-text">map()映射函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#filter-过滤函数"><span class="nav-number">1.2.</span> <span class="nav-text">filter()过滤函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#reduce-函数"><span class="nav-number">1.3.</span> <span class="nav-text">reduce()函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sorted-自定义排序函数"><span class="nav-number">1.4.</span> <span class="nav-text">sorted()自定义排序函数</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -674,6 +708,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
